@@ -1,0 +1,410 @@
+{
+  "reuters/miml_knn/single": {
+    "model": "miml_knn",
+    "dataset": "reuters",
+    "mode": "single",
+    "num_folds": 10,
+    "summary": {
+      "HammingLoss": [
+        0.07657142857142857,
+        0.006126223326397591
+      ],
+      "OneError": [
+        0.19,
+        0.023979157616563603
+      ],
+      "Coverage": [
+        0.7725000000000002,
+        0.07782191208136689
+      ],
+      "RankingLoss": [
+        0.09554166666666666,
+        0.012644017579691807
+      ],
+      "AveragePrecision": [
+        0.8658676587301587,
+        0.016229434533121197
+      ],
+      "MacroF1": [
+        0.6035631912689852,
+        0.04825051146704775
+      ],
+      "MicroF1": [
+        0.7524504426149947,
+        0.0205892470202508
+      ]
+    },
+    "per_fold": [
+      {
+        "HammingLoss": 0.07642857142857143,
+        "OneError": 0.175,
+        "Coverage": 0.7350000000000001,
+        "RankingLoss": 0.08183333333333334,
+        "AveragePrecision": 0.8789861111111107,
+        "MacroF1": 0.576310433612665,
+        "MicroF1": 0.7573696145124716
+      },
+      {
+        "HammingLoss": 0.07071428571428572,
+        "OneError": 0.19,
+        "Coverage": 0.675,
+        "RankingLoss": 0.0895,
+        "AveragePrecision": 0.8703095238095239,
+        "MacroF1": 0.6215395056467315,
+        "MicroF1": 0.7637231503579952
+      },
+      {
+        "HammingLoss": 0.07714285714285714,
+        "OneError": 0.185,
+        "Coverage": 0.74,
+        "RankingLoss": 0.09183333333333334,
+        "AveragePrecision": 0.8740198412698412,
+        "MacroF1": 0.6069242912380167,
+        "MicroF1": 0.7589285714285714
+      },
+      {
+        "HammingLoss": 0.06928571428571428,
+        "OneError": 0.185,
+        "Coverage": 0.79,
+        "RankingLoss": 0.09791666666666667,
+        "AveragePrecision": 0.863654761904762,
+        "MacroF1": 0.5115641680041131,
+        "MicroF1": 0.7651331719128329
+      },
+      {
+        "HammingLoss": 0.07214285714285715,
+        "OneError": 0.205,
+        "Coverage": 0.7949999999999999,
+        "RankingLoss": 0.10166666666666668,
+        "AveragePrecision": 0.8605654761904761,
+        "MacroF1": 0.6572464713037176,
+        "MicroF1": 0.7709750566893424
+      },
+      {
+        "HammingLoss": 0.07571428571428572,
+        "OneError": 0.19,
+        "Coverage": 0.8799999999999999,
+        "RankingLoss": 0.10483333333333335,
+        "AveragePrecision": 0.8652440476190475,
+        "MacroF1": 0.6135815628864145,
+        "MicroF1": 0.7612612612612613
+      },
+      {
+        "HammingLoss": 0.07428571428571429,
+        "OneError": 0.145,
+        "Coverage": 0.7050000000000001,
+        "RankingLoss": 0.07866666666666668,
+        "AveragePrecision": 0.891015873015873,
+        "MacroF1": 0.6673086667869644,
+        "MicroF1": 0.7729257641921398
+      },
+      {
+        "HammingLoss": 0.08428571428571428,
+        "OneError": 0.18,
+        "Coverage": 0.7,
+        "RankingLoss": 0.08733333333333332,
+        "AveragePrecision": 0.8725773809523811,
+        "MacroF1": 0.5446550882503433,
+        "MicroF1": 0.7203791469194313
+      },
+      {
+        "HammingLoss": 0.09071428571428572,
+        "OneError": 0.2,
+        "Coverage": 0.77,
+        "RankingLoss": 0.09666666666666666,
+        "AveragePrecision": 0.8560357142857141,
+        "MacroF1": 0.580882609454038,
+        "MicroF1": 0.7080459770114943
+      },
+      {
+        "HammingLoss": 0.075,
+        "OneError": 0.245,
+        "Coverage": 0.935,
+        "RankingLoss": 0.12516666666666665,
+        "AveragePrecision": 0.8262678571428569,
+        "MacroF1": 0.6556191155068462,
+        "MicroF1": 0.7457627118644068
+      }
+    ],
+    "selected_k_per_fold": [
+      7,
+      11,
+      11,
+      21,
+      5,
+      5,
+      15,
+      21,
+      21,
+      5
+    ]
+  },
+  "reuters/mlknn_hausdorff/single": {
+    "model": "mlknn_hausdorff",
+    "dataset": "reuters",
+    "mode": "single",
+    "num_folds": 10,
+    "summary": {
+      "HammingLoss": [
+        0.0705,
+        0.007207210108705061
+      ],
+      "OneError": [
+        0.20149999999999996,
+        0.03376758800980609
+      ],
+      "Coverage": [
+        0.7230000000000001,
+        0.07342342950312251
+      ],
+      "RankingLoss": [
+        0.09068333333333332,
+        0.01451291570368347
+      ],
+      "AveragePrecision": [
+        0.8635464285714285,
+        0.021041821340068934
+      ],
+      "MacroF1": [
+        0.6398414066761725,
+        0.05056482366291133
+      ],
+      "MicroF1": [
+        0.7704300749105217,
+        0.028594791354329477
+      ]
+    },
+    "per_fold": [
+      {
+        "HammingLoss": 0.06785714285714285,
+        "OneError": 0.175,
+        "Coverage": 0.685,
+        "RankingLoss": 0.0785,
+        "AveragePrecision": 0.8792817460317459,
+        "MacroF1": 0.6776642735775863,
+        "MicroF1": 0.7816091954022989
+      },
+      {
+        "HammingLoss": 0.06642857142857143,
+        "OneError": 0.205,
+        "Coverage": 0.6599999999999999,
+        "RankingLoss": 0.08766666666666666,
+        "AveragePrecision": 0.8660595238095236,
+        "MacroF1": 0.6572213176938015,
+        "MicroF1": 0.7852193995381063
+      },
+      {
+        "HammingLoss": 0.06285714285714286,
+        "OneError": 0.205,
+        "Coverage": 0.71,
+        "RankingLoss": 0.08650000000000001,
+        "AveragePrecision": 0.867690476190476,
+        "MacroF1": 0.7012574623984358,
+        "MicroF1": 0.794392523364486
+      },
+      {
+        "HammingLoss": 0.06785714285714285,
+        "OneError": 0.21,
+        "Coverage": 0.7649999999999999,
+        "RankingLoss": 0.098,
+        "AveragePrecision": 0.8540297619047621,
+        "MacroF1": 0.6510453127119794,
+        "MicroF1": 0.7893569844789357
+      },
+      {
+        "HammingLoss": 0.06142857142857143,
+        "OneError": 0.21,
+        "Coverage": 0.8200000000000001,
+        "RankingLoss": 0.1075,
+        "AveragePrecision": 0.8508273809523811,
+        "MacroF1": 0.6497200654831448,
+        "MicroF1": 0.7892156862745098
+      },
+      {
+        "HammingLoss": 0.07142857142857142,
+        "OneError": 0.17,
+        "Coverage": 0.645,
+        "RankingLoss": 0.0735,
+        "AveragePrecision": 0.8852123015873016,
+        "MacroF1": 0.6645159340012281,
+        "MicroF1": 0.7747747747747747
+      },
+      {
+        "HammingLoss": 0.06714285714285714,
+        "OneError": 0.13,
+        "Coverage": 0.6200000000000001,
+        "RankingLoss": 0.066,
+        "AveragePrecision": 0.9051904761904761,
+        "MacroF1": 0.6697266256930122,
+        "MicroF1": 0.7911111111111111
+      },
+      {
+        "HammingLoss": 0.08571428571428572,
+        "OneError": 0.245,
+        "Coverage": 0.76,
+        "RankingLoss": 0.10300000000000001,
+        "AveragePrecision": 0.8381904761904763,
+        "MacroF1": 0.5180690092490424,
+        "MicroF1": 0.6984924623115578
+      },
+      {
+        "HammingLoss": 0.08,
+        "OneError": 0.215,
+        "Coverage": 0.7050000000000001,
+        "RankingLoss": 0.09233333333333332,
+        "AveragePrecision": 0.8573630952380954,
+        "MacroF1": 0.627241335767368,
+        "MicroF1": 0.7431192660550459
+      },
+      {
+        "HammingLoss": 0.07428571428571429,
+        "OneError": 0.25,
+        "Coverage": 0.8600000000000001,
+        "RankingLoss": 0.11383333333333334,
+        "AveragePrecision": 0.8316190476190475,
+        "MacroF1": 0.5819527301861258,
+        "MicroF1": 0.7570093457943925
+      }
+    ],
+    "selected_k_per_fold": [
+      21,
+      9,
+      15,
+      9,
+      15,
+      15,
+      11,
+      21,
+      7,
+      9
+    ]
+  },
+  "reuters/br_bagmean/single": {
+    "model": "br_bagmean",
+    "dataset": "reuters",
+    "mode": "single",
+    "num_folds": 10,
+    "summary": {
+      "HammingLoss": [
+        0.04014285714285713,
+        0.006782329983125268
+      ],
+      "OneError": [
+        0.066,
+        0.01624807680927192
+      ],
+      "Coverage": [
+        0.298,
+        0.04196427051671462
+      ],
+      "RankingLoss": [
+        0.021825,
+        0.004114751578838697
+      ],
+      "AveragePrecision": [
+        0.9583226190476191,
+        0.00818189169797357
+      ],
+      "MacroF1": [
+        0.8352082691721942,
+        0.034426636573176767
+      ],
+      "MicroF1": [
+        0.8804804605159349,
+        0.0200477709553503
+      ]
+    },
+    "per_fold": [
+      {
+        "HammingLoss": 0.04357142857142857,
+        "OneError": 0.095,
+        "Coverage": 0.3700000000000001,
+        "RankingLoss": 0.028249999999999997,
+        "AveragePrecision": 0.9424285714285716,
+        "MacroF1": 0.836228978394877,
+        "MicroF1": 0.872651356993737
+      },
+      {
+        "HammingLoss": 0.04,
+        "OneError": 0.06,
+        "Coverage": 0.22999999999999998,
+        "RankingLoss": 0.015666666666666666,
+        "AveragePrecision": 0.9641666666666668,
+        "MacroF1": 0.8307362454352859,
+        "MicroF1": 0.8803418803418803
+      },
+      {
+        "HammingLoss": 0.032857142857142856,
+        "OneError": 0.06,
+        "Coverage": 0.31000000000000005,
+        "RankingLoss": 0.021333333333333333,
+        "AveragePrecision": 0.961547619047619,
+        "MacroF1": 0.8758129329190609,
+        "MicroF1": 0.9041666666666667
+      },
+      {
+        "HammingLoss": 0.04,
+        "OneError": 0.06,
+        "Coverage": 0.30499999999999994,
+        "RankingLoss": 0.022666666666666665,
+        "AveragePrecision": 0.9589642857142857,
+        "MacroF1": 0.7933937044757574,
+        "MicroF1": 0.8808510638297873
+      },
+      {
+        "HammingLoss": 0.047857142857142855,
+        "OneError": 0.055,
+        "Coverage": 0.32000000000000006,
+        "RankingLoss": 0.027333333333333334,
+        "AveragePrecision": 0.9604761904761907,
+        "MacroF1": 0.7839037530117879,
+        "MicroF1": 0.8540305010893247
+      },
+      {
+        "HammingLoss": 0.04642857142857143,
+        "OneError": 0.07,
+        "Coverage": 0.30000000000000004,
+        "RankingLoss": 0.017833333333333336,
+        "AveragePrecision": 0.95875,
+        "MacroF1": 0.8353990086492872,
+        "MicroF1": 0.86652977412731
+      },
+      {
+        "HammingLoss": 0.04071428571428572,
+        "OneError": 0.05,
+        "Coverage": 0.3400000000000001,
+        "RankingLoss": 0.0215,
+        "AveragePrecision": 0.9623809523809524,
+        "MacroF1": 0.8494104335414429,
+        "MicroF1": 0.8789808917197452
+      },
+      {
+        "HammingLoss": 0.04214285714285714,
+        "OneError": 0.07,
+        "Coverage": 0.24,
+        "RankingLoss": 0.02033333333333333,
+        "AveragePrecision": 0.9594642857142859,
+        "MacroF1": 0.8422568834628482,
+        "MicroF1": 0.8736616702355461
+      },
+      {
+        "HammingLoss": 0.023571428571428573,
+        "OneError": 0.045,
+        "Coverage": 0.2549999999999999,
+        "RankingLoss": 0.017166666666666667,
+        "AveragePrecision": 0.9707142857142856,
+        "MacroF1": 0.9022406522883492,
+        "MicroF1": 0.9277899343544858
+      },
+      {
+        "HammingLoss": 0.04428571428571428,
+        "OneError": 0.095,
+        "Coverage": 0.31000000000000005,
+        "RankingLoss": 0.026166666666666668,
+        "AveragePrecision": 0.9443333333333335,
+        "MacroF1": 0.8027000995432453,
+        "MicroF1": 0.8658008658008658
+      }
+    ]
+  }
+}

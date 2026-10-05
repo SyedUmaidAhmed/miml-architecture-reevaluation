@@ -156,3 +156,14 @@ shows; it can only change the attribution sentence, not any A1–A6 result.
 Also added post hoc and labelled as such in the manuscript: ANOVA mean squares
 and variance components for A4 (the pre-registered SS shares ignore degrees of
 freedom), and a 5-seed-ensemble version of A6.
+
+## Addendum B (2026-10-05, after the campaign; NOT part of the original pre-registration)
+
+Added after a second internal review, reported in the manuscript as post hoc:
+(a) the three reference learners run on the five benchmarks outside the
+pre-registered eight (scene, reuters, mscv2, letter_frost, letter_carroll), so
+A6 covers all thirteen, reported separately for native-bag and k-NN-framed
+datasets; (b) trivial predictors (all-negative; training-fold label prior) and
+Hamming Loss at a fixed 0.5 threshold recomputed from the saved probabilities
+(scripts/dmkd_trivial_and_hl.py); (c) the Addendum-A isolation study was also
+run, for the leaky-bag condition only, on Emotions and Yeast.

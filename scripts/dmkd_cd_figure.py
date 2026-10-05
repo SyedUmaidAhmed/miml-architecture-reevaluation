@@ -7,7 +7,7 @@ bar of length CD (Nemenyi, alpha=0.05); groups of architectures whose ranks
 differ by less than CD are joined by a thick line. The Friedman p-value is in
 each panel title; post-hoc groups are drawn only where Friedman rejects.
 
-Writes paper_dmkd/figures/cd_diagrams.pdf (TrueType fonts).
+Writes paper_prai/figures/cd_diagrams.pdf (TrueType fonts).
 """
 import json
 import os
@@ -73,7 +73,7 @@ def main():
     panel(axes[1, 0], "bce/Coverage", "Coverage, BCE")
     panel(axes[1, 1], "rankasl/Coverage", "Coverage, Rank+ASL")
     fig.tight_layout()
-    out = os.path.join(ROOT, "paper_dmkd", "figures", "cd_diagrams.pdf")
+    out = os.path.join(ROOT, "paper_prai", "figures", "cd_diagrams.pdf")
     fig.savefig(out)
     print("written", os.path.relpath(out, ROOT))
 

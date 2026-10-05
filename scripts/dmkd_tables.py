@@ -2,7 +2,7 @@
 """Generate every results table of the DMKD manuscript from the campaign data.
 
 Reads results/dmkd_campaign/analysis.json (written by dmkd_analysis.py), the
-unit JSONs and the external-baseline JSONs; writes paper_dmkd/tables/gen_*.tex.
+unit JSONs and the external-baseline JSONs; writes paper_prai/tables/gen_*.tex.
 Each file carries a %% GENERATED header; never edit the numbers by hand --
 re-run this script. Missing cells print as "--".
 
@@ -18,7 +18,7 @@ sys.path.insert(0, ROOT)
 import dmkd_analysis as A  # noqa: E402
 
 CAMP = os.path.join(ROOT, "results", "dmkd_campaign")
-OUT = os.path.join(ROOT, "paper_dmkd", "tables")
+OUT = os.path.join(ROOT, "paper_prai", "tables")
 
 NAMES = {"miml_lcga": "LCGA", "abmil_ml": "ABMIL-ML",
          "transformer_pool_ml": "Transformer-Pool", "mlp_pool_ml": "MLP-Pool",
@@ -298,7 +298,9 @@ def t_external(cells, an):
             if isinstance(c, dict) and "summary" in c:
                 ext.setdefault(c["dataset"], {})[c["model"]] = c["summary"]
     ens = an.get("ensemble_cells", {})
+    FRAMED = {"yeast", "emotions", "medical"}
     rows, n_ds, beat_single, beat_ens, names_ens = [], 0, 0, 0, []
+    cnt = {"native": [0, 0, 0, []], "framed": [0, 0, 0, []]}   # n, single, ens, names(single)
     for ds in A.DATASETS:
         if ds not in ext:
             continue
@@ -314,16 +316,22 @@ def t_external(cells, an):
         e = [ext[ds].get(m, {}).get("AveragePrecision", [None])[0] for m in EXT]
         emax = max(x for x in e if x is not None)
         beat_single += emax >= best
+        grp = "framed" if ds in FRAMED else "native"
+        cnt[grp][0] += 1
+        if emax >= best:
+            cnt[grp][1] += 1
+            cnt[grp][3].append(f"{DSN[ds]} ({emax - best:+.3f})")
         if be is not None and emax >= be:
             beat_ens += 1
             names_ens.append(DSN[ds])
+            cnt[grp][2] += 1
         allv = [v for v in [best, be] + e if v is not None]
         top = max(allv)
         f = lambda v: "--" if v is None else (f"\\textbf{{{v:.3f}}}" if v == top else f"{v:.3f}")
         rows.append(f"{DSN[ds]} & {f(best)} & {who or '--'} & {f(be)} & " + " & ".join(f(v) for v in e) + " \\\\")
     body = header("unit JSONs + analysis.json:ensemble_cells + results/dmkd_campaign/external") + r"""\begin{table}[t]
 \centering
-\caption{A6 -- neural models against non-neural reference learners on the eight benchmarks without a comparator under our folds: Average Precision of the best neural single-model configuration (seed-mean; the pre-registered comparison), of the best neural 5-seed ensemble (added after the campaign), and of the three reference learners on identical folds. The neural columns are maxima over ten configurations chosen after the fact, which favours the neural side. Best per row in bold.}
+\caption{A6 -- neural models against non-neural reference learners on all thirteen benchmarks (the pre-registration covered the eight without a comparator under our folds; the other five were added after the campaign). Average Precision of the best neural single-model configuration (seed-mean; the pre-registered comparison), of the best neural 5-seed ensemble (added after the campaign), and of the three reference learners on identical folds. The neural columns are maxima over ten configurations chosen after the fact, which favours the neural side. Best per row in bold.}
 \label{tab:external}
 \footnotesize
 \setlength{\tabcolsep}{3.5pt}
@@ -338,7 +346,7 @@ Dataset & AP & configuration & ensemble & """ + " & ".join(EXT.values()) + r""" 
 \end{table}
 """
     write("gen_external.tex", body)
-    return {"n": n_ds, "single": beat_single, "ens": beat_ens, "ens_names": names_ens}
+    return {"n": n_ds, "single": beat_single, "ens": beat_ens, "ens_names": names_ens, "groups": cnt}
 
 
 def t_perdataset(cells, an):
@@ -515,6 +523,14 @@ def t_numbers(an, cells, ext_counts=None):
     if ext_counts:
         put("dkExtBeatenEnsAP", ext_counts["ens"])
         put("dkExtBeatenEnsNamesAP", ", ".join(ext_counts["ens_names"]) or "none")
+        put("dkExtNAll", ext_counts["n"])
+        put("dkExtBeatenSingleAll", ext_counts["single"])
+        for g, gt in (("native", "Native"), ("framed", "Framed")):
+            n, s1, e1, nm = ext_counts["groups"][g]
+            put(f"dkExtN{gt}", n)
+            put(f"dkExtSingle{gt}", s1)
+            put(f"dkExtEns{gt}", e1)
+            put(f"dkExtSingleNames{gt}", ", ".join(nm) or "none")
     put("dkNcells", an.get("n_cells"))
     body = header("analysis.json") + "\n".join(
         f"\\newcommand{{\\{k}}}{{{v}}}" for k, v in sorted(M.items())) + "\n"

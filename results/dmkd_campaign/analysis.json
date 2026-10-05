@@ -4615,6 +4615,838 @@
         }
       }
     },
+    "scene": {
+      "miml_lcga/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.18319999999999997,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.31800000000000006,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9640000000000001,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17358333333333334,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7919802777777777,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.18319999999999997,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.31800000000000006,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9640000000000001,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17358333333333334,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7919802777777777,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.18319999999999997,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.31800000000000006,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9640000000000001,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17358333333333334,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7919802777777777,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "miml_lcga/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.18054,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3096,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9377000000000001,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16684166666666664,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.797946111111111,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.18054,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3096,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9377000000000001,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16684166666666664,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.797946111111111,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.18054,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3096,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9377000000000001,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16684166666666664,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.797946111111111,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "abmil_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.1851,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3185,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9653,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17414166666666667,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.791331388888889,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.1851,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3185,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9653,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17414166666666667,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.791331388888889,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.1851,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3185,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9653,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17414166666666667,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.791331388888889,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "abmil_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.18044,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.31110000000000004,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9422,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16834166666666667,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7968552777777778,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.18044,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.31110000000000004,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9422,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16834166666666667,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7968552777777778,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.18044,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.31110000000000004,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9422,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16834166666666667,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7968552777777778,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "transformer_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.18326,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.32,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9674999999999999,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17404999999999998,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7908683333333333,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.18326,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.32,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9674999999999999,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17404999999999998,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7908683333333333,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.18326,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.32,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9674999999999999,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17404999999999998,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7908683333333333,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "transformer_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.18176,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3086,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9453000000000001,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16815833333333333,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7972661111111112,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.18176,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3086,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9453000000000001,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16815833333333333,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7972661111111112,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.18176,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3086,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9453000000000001,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16815833333333333,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7972661111111112,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "mlp_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.18506000000000003,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3221,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9658,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1741083333333333,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7893261111111111,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.18506000000000003,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3221,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9658,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1741083333333333,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7893261111111111,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.18506000000000003,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3221,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9658,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1741083333333333,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7893261111111111,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "mlp_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.17938,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3068,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9250999999999999,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16335,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.8001172222222221,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.17938,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3068,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9250999999999999,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16335,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.8001172222222221,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.17938,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3068,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.9250999999999999,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.16335,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.8001172222222221,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "clam_multilabel_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.19026,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3457,
+            "external": 0.337,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 1.0105,
+            "external": 0.9744999999999999,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.18455833333333332,
+            "external": 0.17641666666666664,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.7750391666666667,
+            "external": 0.7825319444444444,
+            "neural_better": false
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.19026,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3457,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 1.0105,
+            "external": 0.9974999999999999,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.18455833333333332,
+            "external": 0.18249999999999997,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.7750391666666667,
+            "external": 0.7764388888888888,
+            "neural_better": false
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.19026,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.3457,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 1.0105,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.18455833333333332,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7750391666666667,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      },
+      "clam_multilabel_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.18522,
+            "external": 0.2012,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.32480000000000003,
+            "external": 0.337,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.968,
+            "external": 0.9744999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17349166666666666,
+            "external": 0.17641666666666664,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7879088888888889,
+            "external": 0.7825319444444444,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.18522,
+            "external": 0.1936,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.32480000000000003,
+            "external": 0.34700000000000003,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.968,
+            "external": 0.9974999999999999,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17349166666666666,
+            "external": 0.18249999999999997,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7879088888888889,
+            "external": 0.7764388888888888,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.18522,
+            "external": 0.20350000000000001,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.32480000000000003,
+            "external": 0.3835,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.968,
+            "external": 1.109,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.17349166666666666,
+            "external": 0.209375,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7879088888888889,
+            "external": 0.7504305555555555,
+            "neural_better": true
+          }
+        }
+      }
+    },
     "medical": {
       "miml_lcga/bce": {
         "miml_knn": {
@@ -5443,6 +6275,838 @@
             "neural": 0.7637133555300326,
             "external": 0.8088769380663117,
             "neural_better": false
+          }
+        }
+      }
+    },
+    "letter_carroll": {
+      "miml_lcga/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.15184149184149182,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.1696969696969697,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.636363636363637,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1308114773151729,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7070010806317908,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.15184149184149182,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.1696969696969697,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.636363636363637,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1308114773151729,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7070010806317908,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.15184149184149182,
+            "external": 0.17109557109557108,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.1696969696969697,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.636363636363637,
+            "external": 9.369696969696971,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.1308114773151729,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7070010806317908,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "miml_lcga/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.15864801864801864,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.15515151515151518,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.396363636363635,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12705494041833817,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7163116688763702,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.15864801864801864,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.15515151515151518,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.396363636363635,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12705494041833817,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7163116688763702,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.15864801864801864,
+            "external": 0.17109557109557108,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.15515151515151518,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.396363636363635,
+            "external": 9.369696969696971,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.12705494041833817,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7163116688763702,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "abmil_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.16074592074592076,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.596363636363638,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1324667657841736,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7026914925585412,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.16074592074592076,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.596363636363638,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1324667657841736,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7026914925585412,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.16074592074592076,
+            "external": 0.17109557109557108,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.596363636363638,
+            "external": 9.369696969696971,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.1324667657841736,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7026914925585412,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "abmil_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.1627039627039627,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.361212121212123,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12797900201491164,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7113511829294115,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.1627039627039627,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.361212121212123,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12797900201491164,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7113511829294115,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.1627039627039627,
+            "external": 0.17109557109557108,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.361212121212123,
+            "external": 9.369696969696971,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12797900201491164,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7113511829294115,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "transformer_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.15440559440559437,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16727272727272727,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.772121212121212,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13423417212850514,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7056741111935045,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.15440559440559437,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.16727272727272727,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.772121212121212,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13423417212850514,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7056741111935045,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.15440559440559437,
+            "external": 0.17109557109557108,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16727272727272727,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.772121212121212,
+            "external": 9.369696969696971,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.13423417212850514,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7056741111935045,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "transformer_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.16237762237762238,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.52,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13060326866193311,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7094873189629579,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.16237762237762238,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.52,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13060326866193311,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7094873189629579,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.16237762237762238,
+            "external": 0.17109557109557108,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16606060606060608,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.52,
+            "external": 9.369696969696971,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.13060326866193311,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7094873189629579,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "mlp_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.17235431235431237,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.19393939393939394,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.032727272727275,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12276296583034245,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7011481553293695,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.17235431235431237,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.19393939393939394,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.032727272727275,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12276296583034245,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7011481553293695,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.17235431235431237,
+            "external": 0.17109557109557108,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.19393939393939394,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.032727272727275,
+            "external": 9.369696969696971,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12276296583034245,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7011481553293695,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "mlp_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.17631701631701632,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.17939393939393938,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.991515151515152,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12116455697344719,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7066114998806655,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.17631701631701632,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.17939393939393938,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.991515151515152,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12116455697344719,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7066114998806655,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.17631701631701632,
+            "external": 0.17109557109557108,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.17939393939393938,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.991515151515152,
+            "external": 9.369696969696971,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12116455697344719,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7066114998806655,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "clam_multilabel_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.14326340326340326,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.09090909090909091,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.209696969696969,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.10863539987253568,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7646285093502734,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.14326340326340326,
+            "external": 0.14475524475524476,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.09090909090909091,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.209696969696969,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.10863539987253568,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7646285093502734,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.14326340326340326,
+            "external": 0.17109557109557108,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.09090909090909091,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.209696969696969,
+            "external": 9.369696969696971,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.10863539987253568,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7646285093502734,
+            "external": 0.6592160790665634,
+            "neural_better": true
+          }
+        }
+      },
+      "clam_multilabel_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.1454079254079254,
+            "external": 0.19347319347319347,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.08969696969696969,
+            "external": 0.296969696969697,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.972121212121213,
+            "external": 12.50909090909091,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.10429841350126719,
+            "external": 0.1963944899805379,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7688393378750069,
+            "external": 0.6187300672580355,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.1454079254079254,
+            "external": 0.14475524475524476,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.08969696969696969,
+            "external": 0.24242424242424243,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.972121212121213,
+            "external": 9.975757575757575,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.10429841350126719,
+            "external": 0.15142611483658547,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7688393378750069,
+            "external": 0.6579205084308459,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.1454079254079254,
+            "external": 0.17109557109557108,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.08969696969696969,
+            "external": 0.27878787878787875,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.972121212121213,
+            "external": 9.369696969696971,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.10429841350126719,
+            "external": 0.1387387877206891,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7688393378750069,
+            "external": 0.6592160790665634,
+            "neural_better": true
           }
         }
       }
@@ -7943,6 +9607,1670 @@
         }
       }
     },
+    "reuters": {
+      "miml_lcga/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.03322857142857143,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06820000000000001,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3096,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.023426666666666665,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9563176984126984,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.03322857142857143,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06820000000000001,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3096,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.023426666666666665,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9563176984126984,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.03322857142857143,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06820000000000001,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.3096,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.023426666666666665,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9563176984126984,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "miml_lcga/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.03438571428571428,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06720000000000001,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3068,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.023226666666666666,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9572216666666666,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.03438571428571428,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06720000000000001,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3068,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.023226666666666666,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9572216666666666,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.03438571428571428,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06720000000000001,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.3068,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.023226666666666666,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9572216666666666,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "abmil_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.033671428571428574,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07210000000000001,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3176,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.024843333333333335,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9539300793650793,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.033671428571428574,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07210000000000001,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3176,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.024843333333333335,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9539300793650793,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.033671428571428574,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07210000000000001,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.3176,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.024843333333333335,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9539300793650793,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "abmil_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.03497142857142858,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07100000000000001,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3177,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.024974999999999997,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9546764285714285,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.03497142857142858,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07100000000000001,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3177,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.024974999999999997,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9546764285714285,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.03497142857142858,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07100000000000001,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.3177,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.024974999999999997,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9546764285714285,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "transformer_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.034485714285714286,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07150000000000001,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.31610000000000005,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.024515,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9541908333333333,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.034485714285714286,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07150000000000001,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.31610000000000005,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.024515,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9541908333333333,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.034485714285714286,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07150000000000001,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.31610000000000005,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.024515,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9541908333333333,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "transformer_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.03598571428571429,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07200000000000001,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3175,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.02495666666666667,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9541034523809525,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.03598571428571429,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07200000000000001,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3175,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.02495666666666667,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9541034523809525,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.03598571428571429,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.07200000000000001,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.3175,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.02495666666666667,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9541034523809525,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "mlp_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.035742857142857146,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06720000000000001,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3049,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.022675,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9571057142857142,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.035742857142857146,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06720000000000001,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3049,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.022675,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9571057142857142,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.035742857142857146,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06720000000000001,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.3049,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.022675,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9571057142857142,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "mlp_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.036771428571428566,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.0669,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3033,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.02260666666666667,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9575738095238094,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.036771428571428566,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.0669,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3033,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.02260666666666667,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9575738095238094,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.036771428571428566,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.0669,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.3033,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.02260666666666667,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9575738095238094,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "clam_multilabel_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.03541428571428572,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06670000000000001,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3042,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.02243833333333333,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9573262698412698,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.03541428571428572,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06670000000000001,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.3042,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.02243833333333333,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9573262698412698,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.03541428571428572,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.06670000000000001,
+            "external": 0.066,
+            "neural_better": false
+          },
+          "Coverage": {
+            "neural": 0.3042,
+            "external": 0.298,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.02243833333333333,
+            "external": 0.021825,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.9573262698412698,
+            "external": 0.9583226190476191,
+            "neural_better": false
+          }
+        }
+      },
+      "clam_multilabel_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.03557142857142857,
+            "external": 0.07657142857142857,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.0655,
+            "external": 0.19,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.29480000000000006,
+            "external": 0.7725000000000002,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.021256666666666667,
+            "external": 0.09554166666666666,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9588488095238095,
+            "external": 0.8658676587301587,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.03557142857142857,
+            "external": 0.0705,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.0655,
+            "external": 0.20149999999999996,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.29480000000000006,
+            "external": 0.7230000000000001,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.021256666666666667,
+            "external": 0.09068333333333332,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9588488095238095,
+            "external": 0.8635464285714285,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.03557142857142857,
+            "external": 0.04014285714285713,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.0655,
+            "external": 0.066,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 0.29480000000000006,
+            "external": 0.298,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.021256666666666667,
+            "external": 0.021825,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.9588488095238095,
+            "external": 0.9583226190476191,
+            "neural_better": true
+          }
+        }
+      }
+    },
+    "letter_frost": {
+      "miml_lcga/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.16461538461538464,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.18285714285714286,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.255714285714287,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13294905892979197,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.6990905171982564,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.16461538461538464,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.18285714285714286,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.255714285714287,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13294905892979197,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.6990905171982564,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.16461538461538464,
+            "external": 0.1703296703296703,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.18285714285714286,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.255714285714287,
+            "external": 8.835714285714285,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.13294905892979197,
+            "external": 0.12505357832752406,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.6990905171982564,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "miml_lcga/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.1687912087912088,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.1757142857142857,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.098571428571429,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12957652746349213,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7024913404661588,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.1687912087912088,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.1757142857142857,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.098571428571429,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12957652746349213,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7024913404661588,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.1687912087912088,
+            "external": 0.1703296703296703,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.1757142857142857,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.098571428571429,
+            "external": 8.835714285714285,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.12957652746349213,
+            "external": 0.12505357832752406,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.7024913404661588,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "abmil_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.16225274725274724,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16714285714285712,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.28,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13236011333387113,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7078868363172831,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.16225274725274724,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.16714285714285712,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.28,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13236011333387113,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7078868363172831,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.16225274725274724,
+            "external": 0.1703296703296703,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16714285714285712,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.28,
+            "external": 8.835714285714285,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.13236011333387113,
+            "external": 0.12505357832752406,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.7078868363172831,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "abmil_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.17346153846153847,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.15571428571428572,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.197142857142856,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1298577814171227,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7099925356745169,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.17346153846153847,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.15571428571428572,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.197142857142856,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1298577814171227,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7099925356745169,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.17346153846153847,
+            "external": 0.1703296703296703,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.15571428571428572,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.197142857142856,
+            "external": 8.835714285714285,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.1298577814171227,
+            "external": 0.12505357832752406,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.7099925356745169,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "transformer_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.1548901098901099,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.1542857142857143,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.378571428571428,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13258618405131975,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7084029215215413,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.1548901098901099,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.1542857142857143,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.378571428571428,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.13258618405131975,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7084029215215413,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.1548901098901099,
+            "external": 0.1703296703296703,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.1542857142857143,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.378571428571428,
+            "external": 8.835714285714285,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.13258618405131975,
+            "external": 0.12505357832752406,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.7084029215215413,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "transformer_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.16505494505494506,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16571428571428573,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.221428571428572,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1306525889292684,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7083559078391071,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.16505494505494506,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.16571428571428573,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.221428571428572,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1306525889292684,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7083559078391071,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.16505494505494506,
+            "external": 0.1703296703296703,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.16571428571428573,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.221428571428572,
+            "external": 8.835714285714285,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.1306525889292684,
+            "external": 0.12505357832752406,
+            "neural_better": false
+          },
+          "AveragePrecision": {
+            "neural": 0.7083559078391071,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "mlp_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.1675824175824176,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.17285714285714285,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.481428571428571,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1154715732371584,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.717346037502659,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.1675824175824176,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.17285714285714285,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.481428571428571,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1154715732371584,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.717346037502659,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.1675824175824176,
+            "external": 0.1703296703296703,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.17285714285714285,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.481428571428571,
+            "external": 8.835714285714285,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.1154715732371584,
+            "external": 0.12505357832752406,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.717346037502659,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "mlp_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.17340659340659342,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.18428571428571427,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.530000000000001,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.11639550218360697,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7163816326767514,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.17340659340659342,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.18428571428571427,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.530000000000001,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.11639550218360697,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7163816326767514,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.17340659340659342,
+            "external": 0.1703296703296703,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.18428571428571427,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 8.530000000000001,
+            "external": 8.835714285714285,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.11639550218360697,
+            "external": 0.12505357832752406,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7163816326767514,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "clam_multilabel_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.15725274725274727,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.11857142857142858,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.61,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12211712778204686,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7541639468639968,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.15725274725274727,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.11857142857142858,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.61,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.12211712778204686,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7541639468639968,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.15725274725274727,
+            "external": 0.1703296703296703,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.11857142857142858,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.61,
+            "external": 8.835714285714285,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.12211712778204686,
+            "external": 0.12505357832752406,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7541639468639968,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      },
+      "clam_multilabel_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.16186813186813187,
+            "external": 0.17774725274725273,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.12,
+            "external": 0.2642857142857143,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.318571428571428,
+            "external": 11.7,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.11823896080899596,
+            "external": 0.18469765516982745,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7574864844680141,
+            "external": 0.6396410224007933,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.16186813186813187,
+            "external": 0.14395604395604394,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.12,
+            "external": 0.2357142857142857,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.318571428571428,
+            "external": 10.349999999999998,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.11823896080899596,
+            "external": 0.15586563520248956,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7574864844680141,
+            "external": 0.6635546449034767,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.16186813186813187,
+            "external": 0.1703296703296703,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.12,
+            "external": 0.20714285714285716,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 9.318571428571428,
+            "external": 8.835714285714285,
+            "neural_better": false
+          },
+          "RankingLoss": {
+            "neural": 0.11823896080899596,
+            "external": 0.12505357832752406,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7574864844680141,
+            "external": 0.6966556129247534,
+            "neural_better": true
+          }
+        }
+      }
+    },
     "emotions": {
       "miml_lcga/bce": {
         "miml_knn": {
@@ -8771,6 +12099,838 @@
             "neural": 0.7783794726930322,
             "external": 0.8116007532956686,
             "neural_better": false
+          }
+        }
+      }
+    },
+    "mscv2": {
+      "miml_lcga/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.07286661753868828,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20881355932203394,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.10135593220339,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07155187719669273,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7844996553428256,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.07286661753868828,
+            "external": 0.08843036109064112,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20881355932203394,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.10135593220339,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07155187719669273,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7844996553428256,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.07286661753868828,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20881355932203394,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.10135593220339,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07155187719669273,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7844996553428256,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "miml_lcga/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.07715549005158437,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20338983050847456,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.097627118644068,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06970855825097048,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7885638123297063,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.07715549005158437,
+            "external": 0.08843036109064112,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20338983050847456,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.097627118644068,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06970855825097048,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7885638123297063,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.07715549005158437,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20338983050847456,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.097627118644068,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06970855825097048,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7885638123297063,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "abmil_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.07485630066322771,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.21423728813559323,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.2274576271186435,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07463980960967632,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.779221738261799,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.07485630066322771,
+            "external": 0.08843036109064112,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.21423728813559323,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.2274576271186435,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07463980960967632,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.779221738261799,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.07485630066322771,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.21423728813559323,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.2274576271186435,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07463980960967632,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.779221738261799,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "abmil_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.07708179808400885,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.21118644067796608,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.225084745762713,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.0734813247657347,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7844893928859301,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.07708179808400885,
+            "external": 0.08843036109064112,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.21118644067796608,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.225084745762713,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.0734813247657347,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7844893928859301,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.07708179808400885,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.21118644067796608,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.225084745762713,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.0734813247657347,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7844893928859301,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "transformer_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.07243920412675017,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.19186440677966102,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 3.9932203389830505,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06762078628926768,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.793419147905684,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.07243920412675017,
+            "external": 0.08843036109064112,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.19186440677966102,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 3.9932203389830505,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06762078628926768,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.793419147905684,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.07243920412675017,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.19186440677966102,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 3.9932203389830505,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06762078628926768,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.793419147905684,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "transformer_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.076551215917465,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.18271186440677967,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.069152542372882,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06788730449874648,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7965935144873411,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.076551215917465,
+            "external": 0.08843036109064112,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.18271186440677967,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.069152542372882,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06788730449874648,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7965935144873411,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.076551215917465,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.18271186440677967,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.069152542372882,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.06788730449874648,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7965935144873411,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "mlp_pool_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.08934414148857775,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.22508474576271187,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.39728813559322,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.08204243124276447,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7613202917333173,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.08934414148857775,
+            "external": 0.08843036109064112,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.22508474576271187,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.39728813559322,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.08204243124276447,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7613202917333173,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.08934414148857775,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.22508474576271187,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.39728813559322,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.08204243124276447,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7613202917333173,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "mlp_pool_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.09121591746499633,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.203728813559322,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.269491525423729,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.0761686840253902,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7768281346975192,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.09121591746499633,
+            "external": 0.08843036109064112,
+            "neural_better": false
+          },
+          "OneError": {
+            "neural": 0.203728813559322,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.269491525423729,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.0761686840253902,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7768281346975192,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.09121591746499633,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.203728813559322,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.269491525423729,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.0761686840253902,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7768281346975192,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "clam_multilabel_ml/bce": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.08060427413411939,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.22983050847457626,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.793898305084747,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.08630771653672686,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.75527205249505,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.08060427413411939,
+            "external": 0.08843036109064112,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.22983050847457626,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.793898305084747,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.08630771653672686,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.75527205249505,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.08060427413411939,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.22983050847457626,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.793898305084747,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.08630771653672686,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.75527205249505,
+            "external": 0.7069427113796042,
+            "neural_better": true
+          }
+        }
+      },
+      "clam_multilabel_ml/rankasl": {
+        "miml_knn": {
+          "HammingLoss": {
+            "neural": 0.08437730287398673,
+            "external": 0.09904200442151806,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20881355932203388,
+            "external": 0.2796610169491525,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.562033898305085,
+            "external": 5.266101694915254,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07797768057564983,
+            "external": 0.10950157000328856,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7750560654978631,
+            "external": 0.7178139439937358,
+            "neural_better": true
+          }
+        },
+        "mlknn_hausdorff": {
+          "HammingLoss": {
+            "neural": 0.08437730287398673,
+            "external": 0.08843036109064112,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20881355932203388,
+            "external": 0.311864406779661,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.562033898305085,
+            "external": 5.279661016949152,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07797768057564983,
+            "external": 0.10724887131345387,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7750560654978631,
+            "external": 0.7065091511641122,
+            "neural_better": true
+          }
+        },
+        "br_bagmean": {
+          "HammingLoss": {
+            "neural": 0.08437730287398673,
+            "external": 0.10655858511422256,
+            "neural_better": true
+          },
+          "OneError": {
+            "neural": 0.20881355932203388,
+            "external": 0.28135593220338984,
+            "neural_better": true
+          },
+          "Coverage": {
+            "neural": 4.562033898305085,
+            "external": 5.0508474576271185,
+            "neural_better": true
+          },
+          "RankingLoss": {
+            "neural": 0.07797768057564983,
+            "external": 0.10556107632142683,
+            "neural_better": true
+          },
+          "AveragePrecision": {
+            "neural": 0.7750560654978631,
+            "external": 0.7069427113796042,
+            "neural_better": true
           }
         }
       }

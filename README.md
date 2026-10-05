@@ -24,7 +24,7 @@ No new method is proposed.
 | `scripts/check_leakfree_bags.py` | Verifies that no held-out example enters any bag, on every fold. |
 | `scripts/dmkd_medical_isolation.py` | The 2×2 study separating the leak from the scaling clamp. |
 | `scripts/dmkd_analysis.py` | Pre-registered analyses A0–A6 → `results/dmkd_campaign/analysis.json`. |
-| `scripts/dmkd_tables.py`, `dmkd_correction_table.py`, `dmkd_cd_figure.py` | Generate every table, number macro and figure of the article. |
+| `scripts/dmkd_tables.py`, `dmkd_correction_table.py`, `dmkd_trivial_and_hl.py`, `dmkd_cd_figure.py` | Generate the tables, number macros and figure of the article (written to `paper_prai/`). |
 | `results/dmkd_campaign/PREREGISTERED.md` | The pre-registration, its addendum and the deviations log. |
 | `results/dmkd_campaign/*.json` | One file per (architecture, objective, seed): per-fold and summary metrics for all 13 datasets. |
 | `results/dmkd_campaign/external/`, `isolation/` | Reference learners; isolation study. |
@@ -59,7 +59,7 @@ python scripts/run_dmkd_campaign.py --smoke            # 2-fold smoke test
 python scripts/run_dmkd_campaign.py --device cpu --threads 2
 python scripts/run_miml_knn.py --leakfree --dataset all --out-dir results/dmkd_campaign/external
 python scripts/dmkd_analysis.py                        # needs preds/ for the ensembles
-python scripts/dmkd_tables.py && python scripts/dmkd_correction_table.py && python scripts/dmkd_cd_figure.py
+python scripts/dmkd_tables.py && python scripts/dmkd_correction_table.py && python scripts/dmkd_trivial_and_hl.py && python scripts/dmkd_cd_figure.py
 ```
 
 Running the last line on the released results reproduces every table, figure
