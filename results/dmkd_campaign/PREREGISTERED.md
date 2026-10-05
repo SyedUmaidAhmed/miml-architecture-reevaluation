@@ -167,3 +167,8 @@ datasets; (b) trivial predictors (all-negative; training-fold label prior) and
 Hamming Loss at a fixed 0.5 threshold recomputed from the saved probabilities
 (scripts/dmkd_trivial_and_hl.py); (c) the Addendum-A isolation study was also
 run, for the leaky-bag condition only, on Emotions and Yeast.
+(d) Added after a third internal review (scripts/dmkd_robustness.py): percentile
+bootstrap over datasets (2000 resamples) of the A4 shares for Average Precision
+and the split of the seed term into seed main effect and seed-by-configuration
+variation; A1 repeated on the ten datasets outside the objective screen; 95%
+bootstrap intervals for the A5 mean differences.

@@ -59,7 +59,7 @@ python scripts/run_dmkd_campaign.py --smoke            # 2-fold smoke test
 python scripts/run_dmkd_campaign.py --device cpu --threads 2
 python scripts/run_miml_knn.py --leakfree --dataset all --out-dir results/dmkd_campaign/external
 python scripts/dmkd_analysis.py                        # needs preds/ for the ensembles
-python scripts/dmkd_tables.py && python scripts/dmkd_correction_table.py && python scripts/dmkd_trivial_and_hl.py && python scripts/dmkd_cd_figure.py
+python scripts/dmkd_tables.py && python scripts/dmkd_correction_table.py && python scripts/dmkd_trivial_and_hl.py && python scripts/dmkd_robustness.py && python scripts/dmkd_cd_figure.py
 ```
 
 Running the last line on the released results reproduces every table, figure
