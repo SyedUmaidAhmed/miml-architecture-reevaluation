@@ -1,0 +1,181 @@
+{
+  "runs_present": {
+    "k1_bce": [
+      42
+    ],
+    "moe_k4_rankasl": [
+      42,
+      123,
+      456,
+      789,
+      1024
+    ],
+    "k1_attn128_rankasl": [
+      42
+    ],
+    "k1_rankasl": [
+      42,
+      123
+    ],
+    "moe_k4_bce": [
+      42,
+      123
+    ]
+  },
+  "complete_seeds": {
+    "k1_bce": [
+      42
+    ],
+    "moe_k4_rankasl": [
+      42,
+      123,
+      456,
+      789,
+      1024
+    ],
+    "k1_attn128_rankasl": [
+      42
+    ],
+    "k1_rankasl": [
+      42
+    ],
+    "moe_k4_bce": [
+      42,
+      123
+    ]
+  },
+  "seed_replication": {
+    "per_seed_totals": {
+      "42": 28,
+      "123": 21,
+      "456": 30,
+      "789": 26,
+      "1024": 19
+    },
+    "per_seed_cells_scored": {
+      "42": 65,
+      "123": 65,
+      "456": 65,
+      "789": 65,
+      "1024": 65
+    },
+    "complete_seeds": [
+      42,
+      123,
+      456,
+      789,
+      1024
+    ],
+    "mean_total": 24.8,
+    "sd_total": 4.658325879540846,
+    "seed_mean_wins": [
+      21,
+      65
+    ],
+    "baseline_total": 14
+  },
+  "two_by_two": {
+    "k1_bce": {
+      "wins": 14,
+      "cells": 65,
+      "mean_ap": 0.6747649410553412,
+      "complete_seeds": [
+        42
+      ]
+    },
+    "k1_rankasl": {
+      "wins": 21,
+      "cells": 65,
+      "mean_ap": 0.6825178087261444,
+      "complete_seeds": [
+        42
+      ]
+    },
+    "moe_k4_bce": {
+      "wins": 12,
+      "cells": 65,
+      "mean_ap": 0.6763057822947611,
+      "complete_seeds": [
+        42,
+        123
+      ]
+    },
+    "moe_k4_rankasl": {
+      "wins": 21,
+      "cells": 65,
+      "mean_ap": 0.6813305869403437,
+      "complete_seeds": [
+        42,
+        123,
+        456,
+        789,
+        1024
+      ]
+    },
+    "wilcoxon_across_datasets_AP": {
+      "K4_vs_K1_given_rankasl": 0.635498046875,
+      "rankasl_vs_bce_given_K4": 0.080322265625,
+      "K4_vs_K1_given_bce": 0.83935546875
+    }
+  },
+  "param_matched": {
+    "moe_k4_rankasl": {
+      "wins": 21,
+      "cells": 65,
+      "mean_ap": 0.6813305869403437
+    },
+    "k1_attn128_rankasl": {
+      "wins": 29,
+      "cells": 65,
+      "mean_ap": 0.6849449693628362
+    },
+    "k1_rankasl": {
+      "wins": 21,
+      "cells": 65,
+      "mean_ap": 0.6825178087261444
+    },
+    "wilcoxon_K4_vs_K1attn128_AP": 0.339599609375
+  },
+  "moe_vs_external": {
+    "emotions": {
+      "MoE": 0,
+      "miml_knn": 0,
+      "br_bagmean": 5
+    },
+    "yeast": {
+      "MoE": 0,
+      "miml_knn": 4,
+      "br_bagmean": 1
+    },
+    "birdsong": {
+      "MoE": 3,
+      "miml_knn": 2,
+      "br_bagmean": 0
+    },
+    "protein_haloarcula": {
+      "MoE": 2,
+      "miml_knn": 0,
+      "br_bagmean": 3
+    },
+    "protein_geobacter": {
+      "MoE": 4,
+      "miml_knn": 0,
+      "br_bagmean": 1
+    },
+    "medical": {
+      "MoE": 0,
+      "miml_knn": 5,
+      "br_bagmean": 0
+    },
+    "protein_azotobacter": {
+      "MoE": 4,
+      "miml_knn": 1,
+      "br_bagmean": 0
+    },
+    "protein_pyrococcus": {
+      "MoE": 5,
+      "miml_knn": 0,
+      "br_bagmean": 0
+    }
+  }
+}

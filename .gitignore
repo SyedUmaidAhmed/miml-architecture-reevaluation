@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/*
+!data/README.md
+results/dmkd_campaign/preds/
+results/dmkd_campaign/claims/
+results/dmkd_campaign/logs/
+paper_dmkd/
